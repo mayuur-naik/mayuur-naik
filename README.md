@@ -34,7 +34,7 @@ I am a passionate, execution-focused developer breaking out of traditional textb
 <br />
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME_HERE&show_icons=true&theme=radical&hide_border=true" alt="Mayur's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=mayuur-naik&show_icons=true&theme=radical&hide_border=true" alt="Mayur's GitHub Stats" />
 </p>
 <!--
 **mayuur-naik/mayuur-naik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
