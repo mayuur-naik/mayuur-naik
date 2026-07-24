@@ -1,52 +1,55 @@
+# Hi there, I'm Mayur Naik 👋
+/ | | ___  _   _  | |  / /    / \  | |
+| |   | |/ _ | | | |/ ` | / /    / _ \  | |
+| || | () | || | (| |/ /    / ___ \ | |
+_||_/ _,|_,//    //   ____|
+### 🚀 Cloud & AI Engineer in Training | DevOps & Agentic Systems
 
-# Hi there, I'm Mayur Naik! 👋
+I am a **Cloud Computing & Data Science** student at **REVA University, Bengaluru**, specializing in **Multi-Cloud Infrastructure**, **DevOps Automation**, and **Agentic AI Systems**. 
 
-### 🚀 B.Sc. Computer Science Undergraduate specializing in Cloud Computing & Big Data Analytics @ REVA University
-
-I am a passionate, execution-focused developer breaking out of traditional textbook environments to build, configure, and maintain scalable cloud architecture. I focus on learning systems by typing code directly onto my keyboard.
-
----
-
-### 💻 Current Technical Focus
-- 🐍 **Logic Engineering:** Completing Harvard University's intensive **CS50P** (Introduction to Programming with Python) framework.
-- 🐧 **Infrastructure Setup:** Transitioning my primary development station over to a clean, optimized localized **Linux environment**.
-- 📊 **Target Stack:** Preparing for Semester 1 core concepts in **Discrete Mathematics** and low-level **C Programming memory management**.
+I focus on building production-grade cloud deployments and autonomous AI agents rather than theoretical classroom projects.
 
 ---
 
-### 🛠️ My Emerging Tech Stack
+### 🧰 Tech Stack & Tools
+
+**Cloud & Infrastructure**
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+**Languages & Frameworks**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
+
+---
+
+### 🎯 Current Focus & Roadmap
+
+- 🐧 **Systems & OS:** Linux Shell Automation & System Programming (C / Python)
+- ☁️ **Cloud Native:** CI/CD Automation Pipelines & Infrastructure as Code (IaC)
+- 🤖 **AI Engineering:** Building Autonomous AI Agents with RAG Architecture & LangGraph
+
+---
+
+### ⚡ GitHub Performance Stats
+
 <p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://github-readme-stats.vercel.app/api?username=mayuur-naik&show_icons=true&theme=dark&hide_border=true" alt="Mayur's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayuur-naik&layout=compact&theme=dark&hide_border=true" alt="Top Languages" width="48%" />
 </p>
 
-- **Core Fields:** Cloud Infrastructure Deployment | Big Data Analytics Pipelines | DevOps Automation
-- **Current Operating Strategy:** Every code error is treated as a logical puzzle, not a system failure.
-
 ---
 
-### 🔗 Let's Collaborate
-* 🌐 **View My Work:** [My Personal Tech Portfolio Website](https://mayur.qzz.io/)
-* 💼 **Professional Network:** [Connect with me on LinkedIn](https://www.linkedin.com/in/mayur-naik-6a342a394)
+### 🌐 Connect With Me
 
-<br />
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=mayuur-naik&show_icons=true&theme=radical&hide_border=true" alt="Mayur's GitHub Stats" />
-</p>
-<!--
-**mayuur-naik/mayuur-naik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🌍 **Portfolio Website:** [Your Custom Domain URL](https://mayuur-naik.github.io)
+- 💼 **LinkedIn:** [linkedin.com/in/your-linkedin-handle](https://linkedin.com/in/your-linkedin-handle)
+- 📧 **Academic Email:** mayur.naik@reva.edu.in
