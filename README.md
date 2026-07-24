@@ -1,8 +1,5 @@
 # Hi there, I'm Mayur Naik 👋
-/ | | ___  _   _  | |  / /    / \  | |
-| |   | |/ _ | | | |/ ` | / /    / _ \  | |
-| || | () | || | (| |/ /    / ___ \ | |
-_||_/ _,|_,//    //   ____|
+
 ### 🚀 Cloud & AI Engineer in Training | DevOps & Agentic Systems
 
 I am a **Cloud Computing & Data Science** student at **REVA University, Bengaluru**, specializing in **Multi-Cloud Infrastructure**, **DevOps Automation**, and **Agentic AI Systems**. 
