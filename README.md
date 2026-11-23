@@ -29,6 +29,51 @@ I am a Computer Science undergraduate at **REVA University, Bangalore**, special
 
 ---
 
+## 🛠️ Tech Stack & Tools
+
+### Cloud & Virtualization
+<p>
+  <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" />
+  <img src="https://img.shields.io/badge/OpenStack-%23ED1944.svg?style=for-the-badge&logo=openstack&logoColor=white" alt="OpenStack" />
+  <img src="https://img.shields.io/badge/VMware-%23607078.svg?style=for-the-badge&logo=vmware&logoColor=white" alt="VMware" />
+</p>
+
+### Languages & Big Data
+<p>
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+  <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/Apache%20Hadoop-66CC00?style=for-the-badge&logo=apachehadoop&logoColor=black" alt="Hadoop" />
+  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Spark" />
+</p>
+
+### Databases & Tools
+<p>
+  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+* **[Hybrid Cloud Architecture](#)** <!-- Replace # with your repo link -->  
+  *AWS EC2, Private Cloud Storage, Automated Failovers*  
+  Designed and deployed a multi-tier infrastructure leveraging AWS and local storage, focusing on high availability and fault tolerance.
+
+* **[Cloud Data Analytics Pipeline](#)** <!-- Replace # with your repo link -->  
+  *Hadoop, Python, Unstructured Data*  
+  Constructed a distributed data processing engine to parse, clean, and analyze large-scale unstructured datasets efficiently.
+
+* **[OpenStack Private Cloud Environment](#)** <!-- Replace # with your repo link -->  
+  *OpenStack, Multi-Node Deployment, Tenant Networking*  
+  Configured a comprehensive multi-node private cloud deployment to manage compute resources, virtualized networking, and cluster storage.
+
+---
+
 ## 📈 GitHub Activity
 
 <div align="center">
