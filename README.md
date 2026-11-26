@@ -1,82 +1,63 @@
 <div align="center">
-  <h1>Hi, I'm Mayur Naik 👋</h1>
-  <h3>Cloud Computing & Big Data Specialist | CS Undergraduate</h3>
-  <p>Building scalable cloud infrastructure, virtualized environments, and data-driven pipelines.</p>
 
-  <p>
-    <a href="mailto:Mayurnaik360@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    <a href="https://www.linkedin.com/in/mayur-naik-6a342a394">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="https://x.com/Mayur__Naik">
-      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" />
-    </a>
-  </p>
+  <!-- Add your own wide banner image (e.g., 1500x400) inside an assets/ folder -->
+  <img src="assets/banner.jpg" width="100%" alt="Mayur Naik Banner" />
+
+  <a href="https://github.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/-YOUR__USERNAME-161616?style=flat&logo=github&logoColor=e0782a" alt="GitHub" /></a>
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/-LinkedIn-161616?style=flat&logo=linkedin&logoColor=e0782a" alt="LinkedIn" /></a>
+  <a href="https://x.com/YOUR_HANDLE"><img src="https://img.shields.io/badge/-X-161616?style=flat&logo=x&logoColor=e0782a" alt="X" /></a>
+  <a href="mailto:youremail@example.com"><img src="https://img.shields.io/badge/-Contact-161616?style=flat&logo=gmail&logoColor=e0782a" alt="Email" /></a>
+
 </div>
-
----
-
-## 👨‍💻 About Me
-
-I am a Computer Science undergraduate at **REVA University, Bangalore**, specializing in Cloud Computing and Big Data. I focus on designing hybrid cloud architectures, deploying robust virtual machines, and optimizing distributed data systems. 
-
-* 🎓 **Current Focus:** Deepening expertise in multi-cloud deployments and large-scale data analytics.
-* ☁️ **Infrastructure:** Experienced in provisioning and managing private/public clouds using AWS, Azure, and OpenStack.
-* 🐧 **Core Foundations:** Strong background in Linux Foundation systems, shell scripting, and low-level C programming.
-* 🤝 **Looking to Collaborate:** Open-source cloud tooling, infrastructure as code (IaC), and data engineering pipelines.
-
----
-
-## 🛠️ Tech Stack & Tools
-
-### Cloud & Virtualization
-<p>
-  <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" />
-  <img src="https://img.shields.io/badge/OpenStack-%23ED1944.svg?style=for-the-badge&logo=openstack&logoColor=white" alt="OpenStack" />
-  <img src="https://img.shields.io/badge/VMware-%23607078.svg?style=for-the-badge&logo=vmware&logoColor=white" alt="VMware" />
-</p>
-
-### Languages & Big Data
-<p>
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
-  <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
-  <img src="https://img.shields.io/badge/Apache%20Hadoop-66CC00?style=for-the-badge&logo=apachehadoop&logoColor=black" alt="Hadoop" />
-  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Spark" />
-</p>
-
-### Databases & Tools
-<p>
-  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</p>
-
----
-
-## 🚀 Featured Projects
-
-* **[Hybrid Cloud Architecture](#)** <!-- Replace # with your repo link -->  
-  *AWS EC2, Private Cloud Storage, Automated Failovers*  
-  Designed and deployed a multi-tier infrastructure leveraging AWS and local storage, focusing on high availability and fault tolerance.
-
-* **[Cloud Data Analytics Pipeline](#)** <!-- Replace # with your repo link -->  
-  *Hadoop, Python, Unstructured Data*  
-  Constructed a distributed data processing engine to parse, clean, and analyze large-scale unstructured datasets efficiently.
-
-* **[OpenStack Private Cloud Environment](#)** <!-- Replace # with your repo link -->  
-  *OpenStack, Multi-Node Deployment, Tenant Networking*  
-  Configured a comprehensive multi-node private cloud deployment to manage compute resources, virtualized networking, and cluster storage.
-
----
-
-## 📈 GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mayuur-naik&show_icons=true&theme=transparent&hide_border=true&title_color=10b981&text_color=a1a1aa&icon_color=10b981" alt="Mayur's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayuur-naik&layout=compact&theme=transparent&hide_border=true&title_color=10b981&text_color=a1a1aa" alt="Most Used Languages" width="48%" />
+  <img src="assets/divider.svg" width="100%" alt="" />
 </div>
+
+<table>
+  <tr>
+    <td>
+      <h2>About me</h2>
+      <p><b>Mayur Naik</b>, 18, Bengaluru, India.</p>
+      <p>Exploring <b>Cloud Computing</b> and <b>Big Data</b>—building scalable pipelines, tinkering with distributed systems, and automating workflows.</p>
+      <p>Big fan of <b>Linux</b> and <b>Open Source</b>. Always learning, breaking things in the terminal, and fixing them again.</p>
+    </td>
+    <td width="140" align="center">
+      <img src="assets/mn-mark.svg" width="110" alt="MN Monogram" />
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <img src="assets/divider.svg" width="100%" alt="" />
+</div>
+
+<h2 align="center">Tech Stack</h2>
+
+<div align="center">
+
+| Languages | Cloud & Big Data | Linux & DevOps |
+|:---:|:---:|:---:|
+| <img src="https://img.shields.io/badge/Python-161616?style=flat&logo=python&logoColor=8FB89A" alt="Python" /><br><img src="https://img.shields.io/badge/SQL-161616?style=flat&logo=postgresql&logoColor=8FB89A" alt="SQL" /><br><img src="https://img.shields.io/badge/Bash-161616?style=flat&logo=gnubash&logoColor=8FB89A" alt="Bash" /><br><img src="https://img.shields.io/badge/Go-161616?style=flat&logo=go&logoColor=8FB89A" alt="Go" /><br><img src="https://img.shields.io/badge/Scala-161616?style=flat&logo=scala&logoColor=8FB89A" alt="Scala" /> | <img src="https://img.shields.io/badge/Apache%20Spark-161616?style=flat&logo=apachespark&logoColor=8FB89A" alt="Apache Spark" /><br><img src="https://img.shields.io/badge/Apache%20Kafka-161616?style=flat&logo=apachekafka&logoColor=8FB89A" alt="Apache Kafka" /><br><img src="https://img.shields.io/badge/AWS-161616?style=flat&logo=amazonwebservices&logoColor=8FB89A" alt="AWS" /><br><img src="https://img.shields.io/badge/Google%20Cloud-161616?style=flat&logo=googlecloud&logoColor=8FB89A" alt="GCP" /><br><img src="https://img.shields.io/badge/Hadoop-161616?style=flat&logo=apachehadoop&logoColor=8FB89A" alt="Hadoop" /> | <img src="https://img.shields.io/badge/Linux-161616?style=flat&logo=linux&logoColor=8FB89A" alt="Linux" /><br><img src="https://img.shields.io/badge/Docker-161616?style=flat&logo=docker&logoColor=8FB89A" alt="Docker" /><br><img src="https://img.shields.io/badge/Kubernetes-161616?style=flat&logo=kubernetes&logoColor=8FB89A" alt="Kubernetes" /><br><img src="https://img.shields.io/badge/Terraform-161616?style=flat&logo=terraform&logoColor=8FB89A" alt="Terraform" /><br><img src="https://img.shields.io/badge/Git-161616?style=flat&logo=git&logoColor=8FB89A" alt="Git" /> |
+
+</div>
+
+<div align="center">
+  <img src="assets/divider.svg" width="100%" alt="" />
+</div>
+
+<h2 align="center">Featured Projects</h2>
+
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/YOUR_USERNAME/REPO_1"><b>Project One</b></a><br />
+      <sub>Short description of your cloud or data pipeline project.</sub><br /><br />
+      <img src="https://img.shields.io/github/stars/YOUR_USERNAME/REPO_1?style=flat&color=F6EFE0&labelColor=161616" alt="Stars" />
+      <img src="https://img.shields.io/github/license/YOUR_USERNAME/REPO_1?style=flat&color=F6EFE0&labelColor=161616" alt="License" />
+    </td>
+    <td width="50%">
+      <a href="https://github.com/YOUR_USERNAME/REPO_2"><b>Project Two</b></a><br />
+      <sub>Short description of your Linux script, tool, or open-source work.</sub><br /><br />
+      <img src="https://img.shields.io/github/stars/YOUR_USERNAME/REPO_2?style=flat&color=F6EFE0&labelColor=161616" alt="Stars" />
+      <img src="
