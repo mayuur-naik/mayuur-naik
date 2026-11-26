@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="1200" height="40">
+  <defs>
+    
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#020203" />
+      <stop offset="50%" stop-color="#141519" />
+      <stop offset="100%" stop-color="#020203" />
+    </linearGradient>
+
+    
+    <linearGradient id="vignette" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.82" />
+      <stop offset="14%" stop-color="#000" stop-opacity="0" />
+      <stop offset="86%" stop-color="#000" stop-opacity="0" />
+      <stop offset="100%" stop-color="#000" stop-opacity="0.82" />
+    </linearGradient>
+
+    
+    <linearGradient id="silkLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c818a" />
+      <stop offset="35%" stop-color="#f2f4f8" />
+      <stop offset="65%" stop-color="#d8dce3" />
+      <stop offset="100%" stop-color="#757a82" />
+    </linearGradient>
+    <linearGradient id="silkMid" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3c4047" />
+      <stop offset="50%" stop-color="#8b919c" />
+      <stop offset="100%" stop-color="#383b42" />
+    </linearGradient>
+    <linearGradient id="silkDeep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#222429" />
+      <stop offset="50%" stop-color="#525761" />
+      <stop offset="100%" stop-color="#1e2024" />
+    </linearGradient>
+
+    
+    <filter id="liquid" x="-60%" y="-150%" width="220%" height="400%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.0032 0.0085" numOctaves="2" seed="7" result="noise" />
+      <feOffset in="noise" dx="0" dy="0" result="flow">
+        <animate attributeName="dx" values="0;420;0" dur="40s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" />
+        <animate attributeName="dy" values="0;-160;0" dur="26s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" />
+      </feOffset>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.8" result="soft" />
+      <feDisplacementMap in="soft" in2="flow" scale="58" xChannelSelector="R" yChannelSelector="G" result="warped" />
+      <feGaussianBlur in="warped" stdDeviation="2.4" result="smooth" />
+      <feComponentTransfer in="smooth">
+        <feFuncR type="gamma" exponent="1.55" amplitude="1.22" />
+        <feFuncG type="gamma" exponent="1.55" amplitude="1.22" />
+        <feFuncB type="gamma" exponent="1.55" amplitude="1.22" />
+      </feComponentTransfer>
+    </filter>
+
+    
+    <filter id="grainW" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="3" stitchTiles="stitch" />
+      <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.24 -0.05" />
+    </filter>
+    <filter id="grainB" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="9" stitchTiles="stitch" />
+      <feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.42 -0.09" />
+    </filter>
+
+    <clipPath id="frame">
+      <rect width="1200" height="40" rx="5" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="40" fill="url(#bg)" />
+
+    <g filter="url(#liquid)" fill="none" stroke-linecap="round">
+      
+      <g opacity="0.85">
+        <animateTransform attributeName="transform" type="translate" values="0 0;45 -5;0 0" dur="32s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" />
+        <path d="M-60 28 C 220 16, 420 38, 680 25 S 1000 14, 1260 29" stroke="url(#silkDeep)" stroke-width="7" />
+      </g>
+
+      
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;-60 6;0 0" dur="24s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" />
+        <path d="M-60 26 C 210 15, 430 36, 670 24 S 1010 13, 1260 27" stroke="url(#silkMid)" stroke-width="3.8" />
+        <path d="M-60 20 C 200 8, 400 32, 650 18 S 1000 6, 1260 22" stroke="url(#silkLight)" stroke-width="5.2" />
+        
+        <path d="M-60 19 C 200 7, 400 31, 650 17 S 1000 5, 1260 21" stroke="#ffffff" stroke-width="1.2" opacity="0.75" />
+        <path d="M-60 12 C 180 2, 380 24, 620 10 S 980 0, 1260 13" stroke="#cfd4dc" stroke-width="2" opacity="0.8" />
+      </g>
+    </g>
+
+    
+    <rect width="1200" height="40" fill="url(#vignette)" />
+    <rect width="1200" height="40" filter="url(#grainW)" />
+    <rect width="1200" height="40" filter="url(#grainB)" />
+
+    
+    <rect x="0.5" y="0.5" width="1199" height="39" rx="4.5" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" />
+  </g>
+</svg>
