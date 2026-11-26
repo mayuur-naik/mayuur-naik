@@ -1,53 +1,82 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 48" width="1200" height="48">
   <defs>
     
-    <filter id="pen" x="-2%" y="-50%" width="104%" height="200%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.016" numOctaves="2" seed="3" result="w">
-        <animate attributeName="seed" values="3;6;9;4" dur="1.2s" calcMode="discrete" repeatCount="indefinite" />
+    <filter id="pen" x="-3%" y="-60%" width="106%" height="220%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.022" numOctaves="3" seed="2" result="w">
+        <animate attributeName="seed" values="2;7;13;5;11;3" dur="0.72s" calcMode="discrete" repeatCount="indefinite" />
       </feTurbulence>
-      <feDisplacementMap in="SourceGraphic" in2="w" scale="3.5" xChannelSelector="R" yChannelSelector="G" result="d" />
-      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="g" />
-      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -3.0 0 0 0 2.4" result="ga" />
+      <feDisplacementMap in="SourceGraphic" in2="w" scale="5" xChannelSelector="R" yChannelSelector="G" result="d" />
+      <feTurbulence type="fractalNoise" baseFrequency="0.95" numOctaves="2" seed="7" result="g" />
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -3.4 0 0 0 2.5" result="ga" />
       <feComposite in="d" in2="ga" operator="in" />
     </filter>
 
     
     <linearGradient id="sageFade" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#8FB89A" stop-opacity="0" />
-      <stop offset="8%" stop-color="#8FB89A" stop-opacity="1" />
-      <stop offset="92%" stop-color="#8FB89A" stop-opacity="1" />
+      <stop offset="7%" stop-color="#8FB89A" stop-opacity="1" />
+      <stop offset="93%" stop-color="#8FB89A" stop-opacity="1" />
       <stop offset="100%" stop-color="#8FB89A" stop-opacity="0" />
     </linearGradient>
   </defs>
 
   <g filter="url(#pen)" fill="none" stroke-linecap="round" stroke-linejoin="round">
     
-    <path d="M16 18 C280 14, 520 21, 600 18 C680 15, 920 21, 1184 17" stroke="url(#sageFade)" stroke-width="2.6" />
+    <path stroke="url(#sageFade)" stroke-width="2.7" d="M16 19 C220 13, 410 23, 600 17 C790 12, 980 23, 1184 16">
+      <animate attributeName="d" values="M16 19 C220 13, 410 23, 600 17 C790 12, 980 23, 1184 16;
+                M16 16 C220 23, 410 13, 600 20 C790 23, 980 12, 1184 19;
+                M16 19 C220 13, 410 23, 600 17 C790 12, 980 23, 1184 16" dur="4.8s" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" repeatCount="indefinite" />
+    </path>
 
     
-    <path d="M56 22.5 C310 20, 620 25, 940 21 C1030 20, 1100 22, 1144 21.5" stroke="url(#sageFade)" stroke-width="1.15" opacity="0.45" />
+    <path stroke="url(#sageFade)" stroke-width="1.25" opacity="0.5" d="M48 23 C260 25, 480 18, 690 24 C890 27, 1040 19, 1152 22">
+      <animate attributeName="d" values="M48 23 C260 25, 480 18, 690 24 C890 27, 1040 19, 1152 22;
+                M48 20 C260 17, 480 26, 690 19 C890 17, 1040 25, 1152 20;
+                M48 23 C260 25, 480 18, 690 24 C890 27, 1040 19, 1152 22" dur="5.6s" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" repeatCount="indefinite" />
+    </path>
 
     
-    <g stroke="#8FB89A" stroke-width="1.4" opacity="0.45">
-      <path d="M130 31 L205 31 M250 31.5 L285 31.5 M360 36 L425 36" />
-      <path d="M775 36 L840 36 M915 31.5 L950 31.5 M995 31 L1070 31" />
+    <g stroke="#8FB89A" stroke-width="1.5" opacity="0.5">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -9 1; 0 0; 6 -1; 0 0" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1" dur="5.2s" repeatCount="indefinite" />
+      <path d="M124 31 Q162 29.5 202 32" />
+      <path d="M244 32.5 Q265 31 286 32" />
+      <path d="M352 37 Q388 35 426 36.5" />
       
-      <circle cx="228" cy="31" r="1.2" fill="#8FB89A" stroke="none" />
-      <circle cx="972" cy="31" r="1.2" fill="#8FB89A" stroke="none" />
+      <path d="M224 29.5 L229 33" stroke-width="1.6" />
+      <circle cx="318" cy="34" r="1.4" fill="#8FB89A" stroke="none" />
     </g>
 
     
-    <g stroke="#e0782a" opacity="0.9">
-      <animateTransform attributeName="transform" type="translate" values="0 0; 6 0; 0 0; -4 0; 0 0" keyTimes="0; 0.25; 0.5; 0.75; 1" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1" dur="6s" repeatCount="indefinite" />
+    <g stroke="#8FB89A" stroke-width="1.5" opacity="0.5">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 9 -1; 0 0; -6 1; 0 0" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1" dur="5.2s" repeatCount="indefinite" />
+      <path d="M778 36.5 Q814 38 848 35.5" />
+      <path d="M912 31.5 Q932 33 954 31" />
+      <path d="M998 31.5 Q1036 29.5 1074 32" />
       
+      <path d="M973 33 L978 29.5" stroke-width="1.6" />
+      <circle cx="882" cy="34" r="1.4" fill="#8FB89A" stroke="none" />
+    </g>
+
+    
+    <g stroke="#e0782a" opacity="0.92">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 15 -1.5; 0 1; -15 -1.5; 0 0" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1; 0.45 0 0.55 1; 0.45 0 0.55 1" dur="4.4s" repeatCount="indefinite" />
+
       
-      <path d="M600 11 L606 18 L600 25 L594 18 Z" fill="#e0782a" fill-opacity="0.18" stroke-width="1.8" />
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="-10 600 18; 10 600 18; -10 600 18" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" dur="3.4s" repeatCount="indefinite" />
+        <path d="M599 10.5 L607.5 18.5 L599.5 25.5 L592.5 17.5 L601 11.5" fill="#e0782a" fill-opacity="0.18" stroke-width="1.9" />
+        <path d="M600 11.5 L606 18 L600 24.5" stroke-width="0.9" opacity="0.5" transform="translate(1.5,1)" />
+      </g>
+
       
-      <path d="M554 31 L646 31" stroke-width="2.2" />
-      <path d="M574 38 L626 38" stroke-width="1.7" opacity="0.75" />
+      <path d="M550 31.5 Q600 29.5 650 31.5" stroke-width="2.3" />
+      <path d="M572 38.5 Q600 37 628 38.5" stroke-width="1.8" opacity="0.78">
+        <animateTransform attributeName="transform" type="translate" values="-4 0; 4 0; -4 0" dur="3.4s" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" repeatCount="indefinite" />
+      </path>
+
       
-      <circle cx="542" cy="31" r="1.5" fill="#e0782a" stroke="none" opacity="0.8" />
-      <circle cx="658" cy="31" r="1.5" fill="#e0782a" stroke="none" opacity="0.8" />
+      <path d="M538 29.5 L542 33" stroke-width="2" opacity="0.85" />
+      <path d="M658 33 L662 29.5" stroke-width="2" opacity="0.85" />
     </g>
   </g>
 </svg>
