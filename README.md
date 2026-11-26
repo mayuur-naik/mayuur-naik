@@ -72,18 +72,7 @@
   <img src="assets/pencil-divider.svg" width="100%" alt="" />
 </div>
 
-<div align="center">
 
-<h2><img src="https://cdn.simpleicons.org/lastdotfm/F6EFE0" width="32" height="32" style="vertical-align:middle; margin-bottom:4px;" alt="" /> Last.fm</h2>
-
-  <a href="https://www.last.fm/user/adrielgg_motion">
-    <img src="https://img.shields.io/badge/-adrielgg__motion-161616?style=flat&logo=lastdotfm&logoColor=e0782a&labelColor=161616" alt="adrielgg_motion" />
-  </a>
-  <br /><br />
-  <a href="https://www.last.fm/user/adrielgg_motion">
-    <img src="https://lastfm-recently-played.vercel.app/api?user=adrielgg_motion&count=3&bg_color=161616&header_style=none&footer_style=none&width=380&border_radius=8" alt="Last.fm recently played" />
-  </a>
-</div>
 
 <div align="center">
   <img src="assets/pencil-divider.svg" width="100%" alt="" />
