@@ -82,7 +82,7 @@
 
 ### Statistics
 
-  <img src="https://streak-stats.demolab.com?user=mayuur--naik&hide_border=true&background=00000000&stroke=2a2a2a&ring=e0782a&fire=8FB89A&currStreakLabel=e0782a&sideLabels=F6EFE0&dates=9a958b&currStreakNum=F6EFE0&sideNums=F6EFE0" alt="GitHub streak" onerror="this.style.display='none'" />
+  <img src="https://streak-stats.demolab.com?user=mayuur-naik&hide_border=true&background=00000000&stroke=2a2a2a&ring=e0782a&fire=8FB89A&currStreakLabel=e0782a&sideLabels=F6EFE0&dates=9a958b&currStreakNum=F6EFE0&sideNums=F6EFE0" alt="GitHub streak" onerror="this.style.display='none'" />
 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=mayuur_naik&bg_color=00000000&color=F6EFE0&line=8FB89A&point=e0782a&area=true&area_color=8FB89A&title_color=F6EFE0&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution graph" onerror="this.style.display='none'" />
 
