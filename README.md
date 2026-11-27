@@ -20,7 +20,7 @@
     <td>
       <h2>About me</h2>
       <p><b>Mayur Naik</b>, 18, Bengaluru, India.</p>
-      <p>Interested in <b>Cloud Computing</b> and <b>Big Data</b>. Big fan of <b>Linux</b> and <b>Open Source</b>.</p>
+      <p>Interested in <b>Cloud Computing</b> and <b>Big Data</b>. fan of <b>Linux</b> and <b>Open Source</b>.</p>
       <p>Always learning, tinkering in the terminal, and building scalable things.</p>
     </td>
     <td width="140" align="center">
